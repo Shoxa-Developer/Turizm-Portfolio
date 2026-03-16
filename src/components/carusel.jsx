@@ -30,7 +30,7 @@ export default function Carusel() {
   };
 
   return (
-    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px] overflow-hidden">
+    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px] overflow-hidden" id="home">
       {slides.map((slide, index) => (
         <div
           key={index}

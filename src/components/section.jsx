@@ -2,7 +2,10 @@ import React from "react";
 
 const Section = () => {
   return (
-    <div className="w-full mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-[400px] gap-4">
+    <div
+      className="w-full mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-[400px] gap-4"
+      id="historical"
+    >
       {/* Chap rasm */}
       <div className="overflow-hidden h-64 md:h-auto">
         <img

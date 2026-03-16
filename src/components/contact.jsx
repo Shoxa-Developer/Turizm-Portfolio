@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <div className="w-full mt-24 grid grid-cols-1 md:grid-cols-2 min-h-[400px]">
+    <div className="w-full mt-24 grid grid-cols-1 md:grid-cols-2 min-h-[400px]" id="gallery">
       {/* Chap - Kontakt ma'lumotlari */}
       <div className="flex flex-col justify-center px-6 md:px-10 py-10 bg-[#8B5E3C]">
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 uppercase tracking-widest">

@@ -14,12 +14,18 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 text-[17px] font-bold text-gray-700">
-          <li className="hover:text-[#c89b3c] cursor-pointer">Home</li>
-          <li className="hover:text-[#c89b3c] cursor-pointer">About</li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            Historical of Uzbekistan
+            <a href="#home">Home</a>
           </li>
-          <li className="hover:text-[#c89b3c] cursor-pointer">Gallery</li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#about">About</a>
+          </li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#historical">Historical of Uzbekistan</a>
+          </li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#gallery">Contact</a>
+          </li>
         </ul>
 
         {/* Mobile Button */}
@@ -34,12 +40,18 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {open && (
         <ul className="md:hidden flex flex-col items-center gap-6 pb-6 text-[17px] font-bold text-gray-700 bg-[#e8e4dc]">
-          <li className="hover:text-[#c89b3c] cursor-pointer">Home</li>
-          <li className="hover:text-[#c89b3c] cursor-pointer">About</li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            Historical of Uzbekistan
+            <a href="#home">Home</a>
           </li>
-          <li className="hover:text-[#c89b3c] cursor-pointer">Gallery</li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#about">About</a>
+          </li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#historical">Historical of Uzbekistan</a>
+          </li>
+          <li className="hover:text-[#c89b3c] cursor-pointer">
+            <a href="#gallery">Contact</a>
+          </li>
         </ul>
       )}
     </nav>
