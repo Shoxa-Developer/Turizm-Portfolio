@@ -15,16 +15,16 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 text-[17px] font-bold text-gray-700">
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#home">Home</a>
+            <a href="#home">Главная</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#about">About</a>
+            <a href="#about">О нас</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#historical">Historical of Uzbekistan</a>
+            <a href="#historical">История о Узбекистане</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#gallery">Contact</a>
+            <a href="#gallery">Контакты</a>
           </li>
         </ul>
 
@@ -41,16 +41,16 @@ const Navbar = () => {
       {open && (
         <ul className="md:hidden flex flex-col items-center gap-6 pb-6 text-[17px] font-bold text-gray-700 bg-[#e8e4dc]">
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#home">Home</a>
+            <a href="#home">Главная</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#about">About</a>
+            <a href="#about">О нас</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#historical">Historical of Uzbekistan</a>
+            <a href="#historical">История о Узбекистане</a>
           </li>
           <li className="hover:text-[#c89b3c] cursor-pointer">
-            <a href="#gallery">Contact</a>
+            <a href="#gallery">Контакты</a>
           </li>
         </ul>
       )}

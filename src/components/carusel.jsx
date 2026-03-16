@@ -3,17 +3,17 @@ import { useState } from "react";
 const slides = [
   {
     img: "https://ydk1tcgolp.ufs.sh/f/WL8eQfpTCliYJOcTLIEkWxlo9nBqT42wK30OZguXFELYCcNa",
-    title: "Bukhara City",
+    title: "Бухара город",
     desc: "",
   },
   {
     img: "https://ydk1tcgolp.ufs.sh/f/WL8eQfpTCliYzi4Egqih8GZgP17XAxVODT9qkmpiFuboacL5",
-    title: "Samarkand",
+    title: "Самарканд",
     desc: "",
   },
   {
     img: "https://ydk1tcgolp.ufs.sh/f/WL8eQfpTCliYgHJENIFsVXEoN6RFnzyahgscfudp1HbYPOGA",
-    title: "Toshkent",
+    title: "Ташкент",
     desc: "",
   },
 ];

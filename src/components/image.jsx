@@ -6,7 +6,7 @@ const Image = () => {
       {/* Title */}
       <div className="flex justify-center text-center mt-6 px-4">
         <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[40px]">
-          Buxoro qadimiy diyorining maftunkor manzarasi
+          Бухара сентр старых обычай
         </h1>
       </div>
 
