@@ -3,7 +3,7 @@ import { useState } from "react";
 const slides = [
   {
     img: "https://ydk1tcgolp.ufs.sh/f/WL8eQfpTCliYJOcTLIEkWxlo9nBqT42wK30OZguXFELYCcNa",
-    title: "Бухара город",
+    title: "Бухара",
     desc: "",
   },
   {
